@@ -1,0 +1,9 @@
+<templateSet group="HTML/XML">
+  <template name="bstext" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    &lt;label for=&quot;$NAME$&quot;&gt;$LABEL$&lt;/label&gt;&#10;    &lt;input type=&quot;text&quot; name=&quot;$NAME$&quot; id=&quot;$NAME$&quot; class=&quot;form-control&quot;&gt;&#10;&lt;/div&gt;" description="Create a bootstrap 4 text field" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
