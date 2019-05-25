@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ab671f54-28d8-41f0-a05b-edbc12e4777a" name="AztecImport" url="http://aztecimport.com">
+        <fileTransfer host="157.230.233.37" port="22" privateKey="$USER_HOME$/.ssh/id_rsa_selectconnect" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
