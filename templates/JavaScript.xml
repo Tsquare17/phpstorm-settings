@@ -1,0 +1,7 @@
+<templateSet group="JavaScript">
+  <template name="jquery" value=";(function($){&#10;    'use strict';&#10;&#10;})(jQuery, window, document);" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
