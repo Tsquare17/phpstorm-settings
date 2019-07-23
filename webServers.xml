@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="30068535-0c68-4338-8a1a-4fa5d93f6299" name="websiteneoinc.com/amishelegance" url="http://websiteneoinc.com">
+        <fileTransfer host="websiteneoinc.com" port="7822" rootFolder="/home/webneock/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="7822" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
