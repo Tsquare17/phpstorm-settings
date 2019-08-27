@@ -5,5 +5,23 @@
         <option name="hashHost" value="false" />
       </SftpAdvancedOptions>
     </sftpAdvancedGlobalOptions>
+    <option name="servers">
+      <webServer id="11d945fb-050f-48ed-8b5d-f6f919846008" name="amisheleganceknox.com" url="http://amisheleganceknox.com">
+        <fileTransfer host="amisheleganceknox.com" port="7822" rootFolder="/home/amishelegancekno/public_html/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="7822" />
+        </fileTransfer>
+      </webServer>
+    </option>
+    <groups>
+      <group>
+        <name>SelectConnect</name>
+        <servers>
+          <name value="amisheleganceknox.com" />
+        </servers>
+      </group>
+    </groups>
   </component>
 </application>
