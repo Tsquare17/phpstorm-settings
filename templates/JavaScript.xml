@@ -1,5 +1,10 @@
 <templateSet group="JavaScript">
-  <template name="jquery" value=";(function($){&#10;    'use strict';&#10;&#10;})(jQuery, window, document);" description="" toReformat="false" toShortenFQNames="true">
+  <template name="jquery" value=";(function($){&#10;    'use strict';&#10;    $END$&#10;})(jQuery, window, document);" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="jqueryready" value=";(function($){&#10;    'use strict';&#10;    function init() {&#10;        $END$&#10;    }&#10;&#10;    $(document).ready(function(){&#10;        init();&#10;    });&#10;})(jQuery, window, document);" description="jQuery on document ready" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
